@@ -1,36 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+<style>
+    *{
+        background-color: #edf7ff;
+        margin: 0;
+    }
+   .miTitulo{
+    color: #0a2ff1;
+    font-family: MuseoModerno;
+    font-size: 88pt;
+    padding-left: 50px;
+}
+.miSubtitulo{
+    color: #0a2ff1;
+    font-family: Asap;
+    font-size: 39pt;
+    font-weight: normal;
+    margin-top: -40px;
+    padding-left: 50px;
+}
+.misParrafos{
+    color: #04146c;
+    font-family: Asap;
+    font-size: 25pt;
+    margin: 40px 0;
+    padding-left: 50px;
+}
+p{
+    padding: 15px 0;
+}
+.conoceMendoza{
+    color: #0a2ff1;
+    font-family: MuseoModerno;
+    font-size: 36pt;
+    padding-left: 50px;
+}
+.miLista{
+    color: #04146c;
+    font-family: Asap;
+    font-size: 25pt;
+    font-weight: bold;
+    padding-left: 80px;
+}
+.miFooter{
+    color: #8a9af1;
+    font-family: MuseoModerno;
+    font-size: 149pt;
+}
+</style>
 </head>
+
 <body>
     <header>
-        <h1>Mendoza</h1>
-        <h3>Destino seguro y abierto al turismo</h3>    
+        <h1 class="miTitulo">
+            Mendoza
+        </h1>
+        <h3 class="miSubtitulo">
+            Destino seguro y abierto al turismo
+        </h3>
     </header>
-    <div>
-        <p>   
-            Mendoza es una ciudad de la región de Cuyo en Argentina y
-            es el corazón de la zona vitivinícola argentina, famosa por
+    <div class="misParrafos">
+        <p>
+            <strong>Mendoza</strong> es una ciudad de la región de Cuyo en Argentina y
+            es <strong>el corazón de la zona vitivinícola argentina,</strong> famosa por
             sus Malbecs y otros vinos tintos. Sus distintas bodegas
             ofrecen degustaciones y visitas guiadas.
-        </p>  
+        </p>
         <p>
             La ciudad tiene calles amplias y frondosas rodeadas de
             edificios modernos y art déco, y con plazas más pequeñas
             que rodean la Plaza Independencia, sitio del Museo
-            Municipal de Arte Moderno subterráneo, que exhibe arte
-            moderno y contemporáneo.
-        </p> 
-   </div>
+            Municipal de Arte Moderno subterráneo, que exhibe <strong>arte
+                moderno y contemporáneo.</strong>
+        </p>
+    </div>
+    <div>
+        <h2 class="conoceMendoza">
+            Conocé Mendoza
+        </h2>
+        <ul class="miLista">
+            <li>¿Qué hacer?</li>
+            <li>¿Qué comer?</li>
+            <li>¿Dónde alojarse?</li>
+        </ul>
+    </div>
 
-Conocé Mendoza
-● ¿Qué hacer?
-● ¿Qué comer?
-● ¿Dónde alojarse?
-
-    
+    <footer class="miFooter">
+        <h2>
+            #ModoMendoza
+        </h2>
+    </footer>
 </body>
+
 </html>
